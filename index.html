@@ -33,6 +33,32 @@
     .tag{display:inline-flex;align-items:center;gap:.4rem;border:1px solid #2a2a2a;background:#0c0c0c;border-radius:999px;padding:.35rem .7rem;color:#d4d4d8;font-size:.85rem}
     .highlight{color:#34d399}
     .notice{background:#0d1f1a;border:1px solid #1f3c32}
+    /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: var(--bg);
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #2a2a2a;
+        border-radius: 6px;
+        border: 2px solid var(--bg);
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #3a3a3a;
+      }
+      
+      /* Firefox */
+      * {
+        scrollbar-width: thin;
+        scrollbar-color: #2a2a2a var(--bg);
+      }
+
+    
   </style>
 </head>
 <body>
