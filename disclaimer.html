@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Disclaimer — 1-on-1 Trading Mentorship</title>
+
+  <style>
+    :root { --bg:#0a0a0a; --card:#121212; --muted:#a1a1aa; --line:#2a2a2a; --brand:#10b981; --text:#e5e7eb; }
+    body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,"Helvetica Neue",Arial,"Noto Sans",sans-serif;line-height:1.6}
+    a{color:var(--brand);text-decoration:underline}
+    .container{max-width:900px;margin:0 auto;padding:60px 1rem}
+    .card{background:rgba(18,18,18,.9);border:1px solid var(--line);border-radius:1rem;padding:2rem}
+    .h1{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:1rem;color:var(--brand)}
+    .muted{color:var(--muted)}
+    .footer{border-top:1px solid #1a1a1a;background:rgba(10,10,10,.85);color:#9ca3af;text-align:center;padding:20px 1rem;font-size:.9rem}
+  </style>
+</head>
+<body>
+  <header style="padding:1rem 0;text-align:center;border-bottom:1px solid #1a1a1a;">
+    <a href="index.html" style="color:var(--brand);font-weight:700;">← Back to Mentorship</a>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="card">
+        <h1 class="h1">Disclaimer</h1>
+
+        <p><strong>No Guarantees of Results:</strong><br>
+        The mentor does not guarantee any specific results, financial outcomes, or success. Your results depend on your own effort, commitment, and circumstances.</p>
+
+        <p><strong>Educational Purposes Only:</strong><br>
+        All information, strategies, and guidance provided during the mentorship are for educational and informational purposes only. Nothing shared should be interpreted as professional, financial, legal, medical, or psychological advice.</p>
+
+        <p><strong>Personal Responsibility:</strong><br>
+        You are solely responsible for the decisions, actions, and results that come from your participation. The mentor is not liable for any damages, losses, or consequences resulting from the application of information provided.</p>
+
+        <p><strong>No Professional Relationship:</strong><br>
+        Participation in this mentorship does not create a client–professional relationship (e.g., financial advisor, therapist, lawyer, etc.). It is a peer-guidance and educational service.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    © <span id="y"></span> JH-Trading All rights reserved.
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
